@@ -43,6 +43,9 @@ const ProductList = () => {
                 isLoading ? <Loader loading={isLoading} setLoading={setIsLoading} /> : <>
                     <div className='border-shadow p-4 m-2 flex justify-between justify-items-center'>
                         <div>
+                            <p className="font-bold text-2xl">Products List</p>
+                        </div>
+                        <div>
                             {/* <label htmlFor="Search">Search Product</label> */}
                             <input type='text' value={searchValue} onChange={(event) => setSearchValue(event.target.value)} className='input-field' placeholder='Product Name' />
                         </div>

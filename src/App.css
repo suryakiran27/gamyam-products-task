@@ -73,7 +73,8 @@ body {
 }
 
 .save-btn {
-  width: 100%;
+  width: 98%;
+  margin-left: 10px;
 }
 
 .add-product-container {
